@@ -1,0 +1,16 @@
+{
+    "extension_id": "com.demo.hiddentaskrunner",
+    "certificate" : {
+        "country": "FR",
+        "province": "Rhône-Alpes",
+        "org": "Danim",
+        "locality": "Lyon",
+        "email": "support@danim.com",
+        "timestamp": "http://time.certum.pl/",
+        "password": ""
+    },
+    "package": {
+        "include": ["CSInterface.js", "src/**/*", "index.html", ".debug", "CSXS/manifest.xml"],
+        "exclude": []
+    }
+}

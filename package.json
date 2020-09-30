@@ -1,0 +1,19 @@
+{
+  "name": "hidden-cep-task-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bin/zxpBuilder.js -install"
+  },
+  "author": "Adrien du Repaire",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.3.0",
+    "exman": "^1.0.1",
+    "fs-extra": "^9.0.1",
+    "prompt-sync": "^4.2.0",
+    "zxp-sign-cmd": "^2.0.0"
+  },
+  "private": true
+}
